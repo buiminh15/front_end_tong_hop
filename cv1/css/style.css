@@ -1,0 +1,72 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    color: #66bfbf;
+}
+
+h2 {
+  line-height: 2;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p {
+ line-height: 2;
+}
+
+.top-container {
+    background-image: url(../images/banner.jpg);
+    padding: 20px 0px;
+    margin: 100px auto 100px;
+}
+
+.middle-container {
+
+}
+
+.intro {
+    width: 25%;
+    margin: auto;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.code-img {
+    float: left;
+    width: 35%;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    float: right;
+    width: 35%;
+    margin-left: 30px;  
+}
