@@ -83,3 +83,17 @@ h3 {
 .image {
     border-radius: 100%;
 }
+
+.wrapper3 {
+  background-color: #F9EDD8 !important;
+}
+
+#footer {
+  padding: 7% 15%;
+}
+
+#footer div {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+}
