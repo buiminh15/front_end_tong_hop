@@ -1,0 +1,124 @@
+body {
+  font-family: 'Montserrat' !important;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5rem !important;
+}
+
+p {
+  color: #c9c0ae;
+}
+
+.logo a {
+  color: #3f7389;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #fff;
+  font-family: 'Ubuntu';
+}
+
+/* navbar  */
+.navbar {
+  justify-content: flex-end !important;
+  height: 40px;
+}
+
+.navbar-brand {
+  font-size: 1rem !important;
+}
+
+
+/* Banner section */
+#banner {
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/banner.jpg);
+  background-size: cover;
+}
+
+.inner {
+  text-align: center;
+}
+
+.inner h1 {
+  margin: 200px auto 40px;
+  width: 50%;
+}
+
+.inner p {
+  margin: auto;
+  width: 80%;
+}
+
+.inner p {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.image-style1 {
+  border-radius: 100%;
+}
+
+.wrapper-row {
+  margin: 100px;
+}
+
+.wrapper2 {
+  background-color: #3490bd;
+  color: white;
+}
+
+.picture {
+  width: 76%;
+  margin: 0px auto;
+}
+
+.desc-pic {
+    text-align: center;
+  width: 83%;
+  margin: 44px auto;
+}
+
+.wrapper3 {
+    background-color: #F9EDD8;
+}
+
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer a:before {
+    display: none;
+}
+
+#footer .row {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.icon-faw {
+    margin: 10px 40px;
+    color: #999999;
+}
+
+.icon-faw:hover {
+    color: #CBC2B0;
+}
+
+.footer-link {
+    text-decoration: none !important;
+    color: #DAD0BD !important;
+}
+
+/* .footer-link :hover {
+    text-decoration: none;
+    color:#CBC2B0;
+} */

@@ -1,0 +1,85 @@
+body {
+  font-family: 'Slabo 27px', serif !important;
+}
+h1 {
+  font-weight: bold !important;
+  color: white;
+  font-size: 3.5rem !important;
+}
+
+h2 {
+  font-weight: bold !important;
+  font-size: 2.5rem !important;
+}
+
+h3 {
+  font-weight: bold !important;
+}
+/* Banner section */
+#banner {
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/banner.jpg);
+  background-size: cover;
+}
+
+.logo {
+  font-size: 1.2rem;
+}
+
+.logo a {
+  color: #4a9bc0;
+}
+
+.logo span {
+  color: #fff;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 20px;
+  justify-content: flex-end !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.navbar-brand {
+  font-size: 0.8rem !important;
+}
+.navbar-toggler {
+  border-color: rgba(201, 76, 76, 0) !important;
+}
+.navbar-toggler-icon {
+  height: 20px !important;
+}
+
+.image {
+  border-radius: 100%;
+}
+.wrapper1 {
+  padding-left: 100px;
+}
+.wrapper2 {
+  padding-left: 100px;
+  background-color: #4a9bc0;
+  color: white;
+}
+.wrapper-para {
+  width: 78%;
+}
+
+.inner {
+  padding: 120px 0px;
+}
+.inner-paragraph {
+  font-size: 1.7rem !important;
+}
+
+.a-tag {
+  text-decoration: none !important;
+}
+
+.image {
+    border-radius: 100%;
+}

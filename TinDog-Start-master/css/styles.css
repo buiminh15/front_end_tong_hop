@@ -111,6 +111,10 @@ h3 {
     margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 /* Press */
 
 #press {
@@ -124,7 +128,15 @@ h3 {
     width: 15%;
 }
 
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
 
+.pricing-column {
+    padding: 3% 2%;
+}
 
 
 
