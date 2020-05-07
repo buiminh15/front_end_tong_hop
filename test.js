@@ -1,21 +1,13 @@
-function calculate(num1, operation, num2) {
-    //TODO: make a basic calculator. 
-    switch (operation) {
-        case '+':
-            return  (num1 + num2)
-        case '-':
-            return res (num1 - num2)
-        case '/':
-            if (num2 == 0) {
-                return  'null'
-            }
-            return  (num1 / num2)
-        case '*':
-            return  (num1 * num2)
+const findAll = (array, n) => {
 
-        default:
-            return  'null'
-    }
+
+  let res = []
+  array.filter((el,i)=> {
+    if(el==n) return res.push(i)
+  })
+  return res
 
 }
-console.log(calculate(3.2,"+", 8))
+console.log(findAll([6, 9, 3, 4, 3, 82, 11], 3))
+
+
